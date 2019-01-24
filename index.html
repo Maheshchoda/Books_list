@@ -42,7 +42,15 @@
               id="title"
               placeholder="Enter Title"
             />
-            <div id="errorname"></div>
+          </div>
+          <div class="form-group">
+            <label for="isbn">ISBN</label>
+            <input
+              type="number"
+              class="form-control"
+              id="isbn"
+              placeholder="Enter ISBN"
+            />
           </div>
         </fieldset>
         <button
@@ -56,9 +64,9 @@
       <table class="table table-hover mt-5">
         <thead>
           <tr>
-            <th scope="col">S.No</th>
             <th scope="col">Author</th>
             <th scope="col">Title</th>
+            <th scope="col">ISBN</th>
           </tr>
         </thead>
         <tbody id="book-list"></tbody>
